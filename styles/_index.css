@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+h2 { font-family: "SourceSansPro", sans-serif }
+
+h4 { font-family: "SourceSansPro", sans-serif }
+
+.btn-trans {
+  background:none;
+  box-shadow:none;
+}
+
+.btn-trans-default {
+  font-family: "SourceSansPro", sans-serif;
+  border: 1px solid #FFFFFF;
+  color:#FFFFFF;
+  width:140px;
+  padding:8px;
+  margin:1em;
+}
+
+.dimmed {
+  position: fixed;
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(51, 63, 72, 0.4);
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  text-align: center;
+  padding:2em;
+  margin: 0;
+
+  visibility: hidden;
+  opacity: 0;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+.banner{
+  height: 470px;
+  width: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('images/header_space.png');
+}
+
+.banner_icon{
+  padding-top: 3em;
+  text-align: center;
+}
+
+.center_white{
+  color:#FFFFFF;
+  text-align:center
+}
+
+.grid_samples{
+
+}
